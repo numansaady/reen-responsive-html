@@ -1,0 +1,152 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+	
+
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+	/*Main Menu*/
+	.sec_pd {
+	    padding: 75px 0;
+	}
+	.header_logo {
+	    padding: 15px 0;
+	    margin: auto;
+	    width: 20%;
+	}
+	.mean-container .mean-nav {
+	    margin-top: 61px;
+	}	
+	.mean-container a.meanmenu-reveal {
+	    top: -7px;
+	}
+	.main_menu ul li a {
+	    font-size: 13px;
+	    padding: 30px 5px;
+	}
+	.header_search {
+	    padding: 23px 10px;
+	}	
+	#banner {
+	    height: auto;
+	    padding: 100px 0;
+	}
+	.banner_contant h1 {
+	    font-size: 50px;
+	}
+	.ct_btn {
+	    font-size: 15px;
+	    padding: 20px 50px;
+	}
+	.feature_contant h3 {
+		font-size: 20px;
+	}
+	.work_item_con h4 {
+		font-size: 18px;
+	}
+
+
+
+
+}
+
+ 
+/* small mobile :320px. */
+@media (min-width: 320px) and (max-width: 767px) {
+	.sec_pd {
+	    padding: 65px 0;
+	}
+	.single_work {
+		margin-bottom: 20px;
+	}
+	.contact_data a {
+		display: inline-flex;
+	}
+	.social ul{
+	    /*display: flex;*/
+	}
+	.social ul li{
+	    display: inline-flex;
+	}
+	.header_logo {
+	    padding: 15px 0;
+	    margin: auto;
+	    width: 30%;
+	}
+	.mean-container .mean-nav {
+	    margin-top: 31px;
+	}
+	.mean-container a.meanmenu-reveal {
+	    top: -8px;
+	}
+	.main_menu ul li a {
+	    font-size: 13px;
+	    padding: 30px 5px;
+	}
+	.header_search {
+	    padding: 20px 10px;
+	}
+	.banner_contant h1 {
+	    font-size: 27px;
+	}
+	.banner_contant p {
+	    font-size: 15px;
+	    padding-bottom: 20px;
+	}
+	.ct_btn {
+	    font-size: 15px;
+	    padding: 15px 30px;
+	}
+	#banner {
+	    padding-top: 0px;
+	    height: 50vh;
+	}
+	.feature_header h2 {
+		font-size: 35px;
+	}
+	.feature_header p {
+		font-size: 18px;
+	}
+	.feature_contant h3 {
+		font-size: 20px;
+	}
+	.work_item_con h4 {
+		font-size: 18px;
+	}
+	.all_widget {
+	    padding: 50px 0;
+	}
+	.footer_widget {
+		margin-bottom: 30px;
+		text-align: center;
+		column-gap: 15px;
+	}
+	.footer_widget .gx-1 {
+    --bs-gutter-x: -1.75rem;
+	}
+	.cp_notice {
+    	font-size: 15px;
+	}
+	.main_menu ul li a {
+	    font-size: 13px;
+	    padding: 15px 5px;
+	}
+
+
+ 
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+ 
+}

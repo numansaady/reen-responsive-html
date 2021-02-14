@@ -1,0 +1,331 @@
+* { margin: 0;  padding: 0; }
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  line-height: 1.2;
+  color: #73879c;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lato', sans-serif;
+  line-height: 1.2;
+}
+h1 {
+  font-size: 78px;
+  font-weight: 900;
+  color: #fff;
+}
+h2 {
+  font-size: 44px;
+  font-weight: 700;
+  color: #506a85;
+}
+h3 {
+  font-size: 26px;
+  font-weight: 700;
+  color: #506a85;
+}
+h4 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #506a85;
+}
+div , p, span, a{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.header_top{
+    background-color: #f5f7fa;
+    border-bottom:1px solid #e6e9ed;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+img {
+    max-width: 100%;
+}
+/* Common CSS
+================*/
+.sec_pd{
+    padding: 115px 0;;
+}
+/* Top Bar CSS
+================*/
+.top_contant {
+    min-height: 40px;
+}
+.contact_data a {
+    font-size: 12px;
+    color: #506a85;
+    margin-right: 25px;
+    text-decoration: none;
+}
+.contact_data a:hover {
+    color: #17a78b;
+    transition: .3s;
+}
+.contact_data i{
+    margin-right: 8px;
+}
+.social ul{
+    list-style-type: none;  
+}
+.social ul li{
+    display: inline-block;
+}
+.social ul li a{
+    color: #506a85;
+    padding-left: 20px;
+}
+.social ul li a:hover{
+    color: #17a78b;
+    transition: .3s;
+}
+/* Main Menu CSS
+================*/
+.menu_bar {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.header_logo {
+  padding: 30px 0;
+}
+.main_menu ul{
+    list-style-type: none;
+    text-align: center;
+    display: flex;
+}
+.main_menu ul li {
+    position: relative;    
+}
+.main_menu ul li a{
+    text-decoration: none;
+    color: #506a85;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 40px 15px;
+    display: inline-block;
+    transition: .4s;
+}
+.main_menu ul li a:hover {
+  color: #17a78b;
+}
+.header_search{
+    height: 100%;
+    padding: 40px 10px;
+}
+.main_menu ul li .submenu {
+    position: absolute;
+    transform: scaleY(0);
+    transform-origin: top center;
+    display: block;
+    text-align: left;
+    border-top: 1px solid #ddd;
+    transition: .4s;
+}
+.main_menu ul li .submenu a {
+    padding: 10px 15px;
+    display: inline-block;
+    width: 200px;
+    background: #fff;
+}
+.main_menu ul li:hover .submenu {
+  transform: scaleY(1);
+}
+/* Banner CSS
+================*/
+#banner{
+    background-image: url('../img/slider/slide1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.banner_contant h1{
+    font-size: 78px;
+    text-transform: uppercase;
+}
+.banner_contant p{
+    font-size: 24px;
+    color: #a3b1bf;
+    padding-bottom: 44px;
+}
+.ct_btn{
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    background-color: #17a78b;
+    padding:25px 70px;
+    display: inline-block;
+}
+.ct_btn:hover{
+    color: #fff;
+    transition: .3s;
+}
+/* Features Area CSS
+================*/
+.feature_header h2{
+    padding-bottom: 20px;
+    font-size: 44px;
+}
+.feature_header p{
+    font-size: 22px;
+    padding: 20px 0 65px 0;
+}
+.feature_item {
+    display: flex;
+    
+}
+.feature_icon i {
+  font-size: 50px;
+  color: #17a78b;
+}
+.feature_contant h3{
+    font-size: 26px;    
+}
+.feature_contant p{
+    font-size: 16px;
+}
+/* Work Area CSS
+================*/
+#work{
+    background-color: #f2f5f7;
+}
+.work_contant h2{
+    padding-bottom: 30px;    
+}
+.work_contant p{
+    font-size: 22px;
+    padding-bottom: 70px;
+}
+.work_item {
+    padding-bottom: 80px;
+}
+.work_item img,
+.single_work img{
+    width: 100%;
+}
+.work_item_con {
+    min-height: 112px;
+    background-color: #fff;
+    border-radius: 0 0 3px 3px;
+    border-left: 1px solid #e6e9ed;
+    border-right: 1px solid #e6e9ed;
+    border-bottom: 2px solid #e6e9ed;
+}
+.work_item_con h4{
+    padding-top: 34px;
+
+}
+.work_item_con p{
+    color: #73879c;
+    padding-bottom: 26px;
+}
+
+
+/*==============
+Contact Area CSS
+================*/
+.contact_heading{
+
+}
+.contact_heading h2{
+    padding-bottom: 30px;
+}
+.contact_heading p{
+    font-size: 22px;
+    padding-bottom: 40px;
+}
+.contact_heading  .ct_btn{
+    padding: 15px 25px;
+    font-size: 15px;
+    border-radius: 3px
+}
+/* Footer Area CSS
+================*/
+footer{
+    background-color: #2f4052;
+}
+.all_widget{
+     padding: 75px 0;
+}
+.widget_tittle{
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+    font-weight: 700;
+}
+.footer_widget p{
+    color: #a3b1bf;
+    font-size: 14px;
+    line-height: 22px;
+}
+.footer_widget a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 700;
+    color: #00bc9c;
+}
+.footer_widget p i{
+    padding-right: 20px;
+}
+.sub_form {
+    position: relative;
+}
+.sub_form input[type= email]{
+     position: relative;
+     width: 100%;
+     background-color: #4e5c6c;
+     border-radius: 3px;
+     border: 0;
+     outline: none;
+     padding: 15px 12px;     
+}
+::placeholder{
+    color: #828e99;
+    opacity: 1;
+}
+:-moz-placeholder{
+    color: #828e99;
+}
+:-ms-input-placeholder{
+    color: #828e99;
+}
+::-webkit-input-placeholder{
+    color: #828e99;
+}
+.sub_form input[ type= submit]{
+    position: absolute;
+    top:6px;
+    right: 5px;    
+}
+.sub_form .ct_btn{
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 3px;
+    border: 0;
+    outline:0;
+}
+.copyright{
+    background-color: #283645;
+}
+.cp_notice{
+    padding-top: 22px ;
+}
+ .footer_menu ul li a{
+    text-decoration: none;
+    color: #506a85;
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 22px 9px 22px 9px;
+    display: inline-block;
+}
+ .footer_menu .active{
+    color: #00bc9c;
+}
+
+
